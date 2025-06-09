@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Files</title>
+<style type="text/css">
+   #content{
+        text-align: center;
+   	width: 50%;
+   	margin: 20px auto;
+   	border: 1px solid #cbcbcb;
+   }
+   form{
+   	width: 50%;
+   	margin: 20px auto;
+   }
+   form div{
+   	margin-top: 5px;
+   }
+   #img_div{
+   	width: 80%;
+   	padding: 5px;
+   	margin: 15px auto;
+   	border: 1px solid #cbcbcb;
+   }
+   #img_div:after{
+   	content: "";
+   	display: block;
+   	clear: both;
+   }
+   img{
+    display: block;
+    width:100%;
+    max-width:600px;
+    max-height:600px;
+    width: auto;
+    height: auto;
+   }
+
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+<div id=content>
+ <a href="pteridiumbase.php">Search</a> | <a href="blast.php">BLAST</a> | <a href="extract.php">Extract sequence</a>
+</div>
+<div>
+ <h1><i>Pteridium aquilinum</i></h1>
+ <p>Genome: <a href= "./.assets/Pteridium_aquilinum_genome.fasta" download>FASTA</a></p>
+ <p>CDS: <a href= "./.assets/Pteridium_aquilinum_CDS.fasta" download>All isoform FASTA</a> | <a href= "./.assets/Pteridium_aquilinum_CDS_longest_isoforms.fasta" download>Longest isoform FASTA</a></p>
+ <p>Proteins: <a href="./.assets/Pteridium_aquilinum_PROT.fasta" download>All isoform FASTA</a> | <a href= "./.assets/Pteridium_aquilinum_PROT_longest_isoforms.fasta" download>Longest isoform FASTA</a></p>
+ <p>Gene Annotations: <a href="./.assets/Pteridium_aquilinum_gene_annotations.gff" download>GFF</a></p>
+<!-- <p>Chloroplast Genome: <a href="./plastome/Anthoceros_agrestis_Oxford_chloroplast_genome.fasta" download>FASTA</a></p>
+ <p>Chloroplast Gene Annotations (auto-generated): <a href="./plastome/Anthoceros_agrestis_Oxford_GenBank.gb" download>GenBank (.gb)</a> | <a href="./plastome/Anthoceros_agrestis_Oxford_GFF3.gff3" download>GFF</a></p>
+ <br>-->
+</div>
+<div id=content>
+ <a href="pteridiumbase.php">Search</a> | <a href="blast.php">BLAST</a> | <a href="extract.php">Extract sequence</a>
+</div>
+</body>
+</html>
